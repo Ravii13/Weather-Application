@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="card">
+        <video autoplay muted loop plays inline blur>
+            <source src="images/17713400-hd_1080_1920_24fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+        <div class="search">
+            <input type="text" placeholder="Enter city name" id="search-input" spellcheck="false">
+            <button class="searchbtn">
+                <img src="images/search.png">
+            </button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather-info">
+            <div class="weather-icon">
+                <img src="images/sun.png" alt="Weather Icon">
+                <h1 class ="temp">
+                    0°c
+                </h1>
+                <h2 class="city-name">
+                </h2>
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity Icon" id="humidity-icon">
+                    <p id="humidity">Humidity:0%</p>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="wind-icon" id="wind-icon">
+                    <p id="wind-speed">Wind Speed: 0 km/hr</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>                
