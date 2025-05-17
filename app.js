@@ -49,40 +49,40 @@ async function getWeatherData(city){
     // Set the background image based on weather conditions
 
     if(data.weather[0].main==="Clouds"){
-        weathericon.src="images/cloud.png";
+        weathericon.src="cloud.png";
     }
     else if(data.weather[0].main==="Clear"){
-        weathericon.src="images/clear.png";
+        weathericon.src="clear.png";
     } 
     else if(data.weather[0].main==="Sun"){           
-        weathericon.src="images/sun.png";
+        weathericon.src="sun.png";
     } 
     else if (data.weather[0].main==="Rain"){
-        weathericon.src="images/rain.png";
+        weathericon.src="rain.png";
     } 
     else if (data.weather[0].main==="Mist"){
-        weathericon.src="images/mist.png";
+        weathericon.src="mist.png";
     }
     else if (data.weather[0].main==="Snow"){
-        weathericon.src="images/snow.png";
+        weathericon.src="snow.png";
     } 
     else if (data.weather[0].main==="Thunderstorm"){
-        weathericon.src="images/thunderstorm.png";
+        weathericon.src="thunderstorm.png";
     }
     else if (data.weather[0].main==="Drizzle"){
-        weathericon.src="images/drizzle.png";
+        weathericon.src="drizzle.png";
     }  
     else if (data.weather[0].main==="Smoke"){
-        weathericon.src="images/smoke.png";
+        weathericon.src="smoke.png";
     }    
     else if (data.weather[0].main==="Fog"){
-        weathericon.src="images/fog.png";
+        weathericon.src="fog.png";
     }  
     else if (data.weather[0].main==="Ash"){
-        weathericon.src="images/ash.png";
+        weathericon.src="ash.png";
     }  
     else if (data.weather[0].main==="Tornado"){
-        weathericon.src="images/tornado.png";
+        weathericon.src="tornado.png";
     }
     
     weathericon.src=imagePath.src;
