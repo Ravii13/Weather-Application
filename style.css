@@ -208,16 +208,17 @@ body {
         padding: 15px;
     }
 
-    .search input {
+     .search input {
         font-size: 14px;
-        padding: 8px;
-        margin-right: 8px;
+        padding: 12px;
+        margin-right: 5px;
     }
 
     .search button {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
+
 
     .search button:hover {
         background: linear-gradient(135deg, #a9a5a5ae 50%, #ada5a5b5 50%);
@@ -251,10 +252,6 @@ body {
 
     .details {
         flex-direction: column; /* Stack details vertically on smaller screens */
-    }
-
-    .col {
-        margin-top: 1rem; /* Add spacing between detail columns */
     }
 
     .col img {
