@@ -42,8 +42,8 @@ async function getWeatherData(city){
     cityNameElement.innerHTML=data.name;
     console.log(data.name)
     tempElement.innerHTML=Math.round(data.main.temp)+"°C";
-    humidityElement.innerHTML=data.main.humidity+ "%";
-    windSpeedElement.innerHTML=data.wind.speed+"km/hr";
+    humidityElement.innerHTML=data.main.humidity+ "Humidity: %";
+    windSpeedElement.innerHTML=data.wind.speed+"Wind-Speed: km/hr";
     detailsContainer.style.display = "flex";
 
     // Set the background image based on weather conditions
